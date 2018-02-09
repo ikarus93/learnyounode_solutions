@@ -1,3 +1,7 @@
-const nums = process.argv.slice(2);
+/* ## HELLO WORLD (Exercise 1 of 13)  
+   
+  Write a program that prints the text "HELLO WORLD" to the console  
+  (stdout).  */
+   
 
-console.log(nums.reduce( (a,b) => { return parseInt(a) + parseInt(b);}))
+console.log("HELLO WORLD");
